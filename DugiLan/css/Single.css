@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1270px;
+}
+
+.color--text5 {
+  color: #8786ad;
+}
+
+/* Header */
+.header {
+  padding-top: 30px;
+}
+
+.module-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 135px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.nav-left .nav ul {
+  display: flex;
+  margin: 0 30px;
+}
+
+.nav-left .nav ul li {
+  list-style: none;
+  margin: 0px 20px;
+}
+
+.nav-left .nav ul li a {
+  text-decoration: none;
+  font-weight: 400;
+  color: #0b0b0c;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-right .btn-account {
+  margin-left: 35px;
+  background-color: #0fafe9;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  padding: 15px 50px;
+}
+
+.nav-right .icon-nav {
+  margin: 0px 15px;
+  display: inline-block;
+}
+
+/* Content */
+.content {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 30px;
+  margin: 70px 0;
+}
+.content .content__logo {
+  display: flex;
+}
+
+.content__logo .wireDugi{
+  font-size: 35px;
+  font-weight: 400;
+  padding: 0 10px;
+}
+
+.content .content__title {
+  font-size: 20px;
+  padding: 35px 0;
+}
+
+.content .content-banner .video {
+  width: 100%;
+}
