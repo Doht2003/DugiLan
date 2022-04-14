@@ -8,3 +8,10 @@ setInterval(() => {
     numb.textContent = counter + "%";
   }
 }, 80);
+
+// button
+$(".hover").mouseleave(
+  function () {
+    $(this).removeClass("hover");
+  }
+);

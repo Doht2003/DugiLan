@@ -18,6 +18,9 @@ body {
   color: #8786ad;
 }
 
+/* CSS button */
+
+
 /* Header */
 .header {
   padding-top: 30px;
@@ -103,7 +106,7 @@ body {
   width: 100%;
 }
 
-.content .content-banner iframe {
+.content .content-banner video {
   width: 100%;
   height: 450px;
   border-radius: 7px;
@@ -139,24 +142,42 @@ body {
 }
 
 /* Cart */
-.cart .cart-header {
+.cart .licence-price {
   background-color: #0fafe9;
   border-radius: 7px 7px 0 0;
   color: #fff;
   font-size: 13px;
-  padding: 15px 50px 15px 25px;
+  padding: 15px 20px 15px 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart .licence-price p {
+  margin: auto 0;
+}
+
+.cart .licence-price span {
+  font-weight: 600;
+  font-size: 25px;
 }
 
 .cart ul li {
   list-style: none;
-  padding: 15px 50px 15px 25px;
+  padding: 15px 10px 15px 20px;
   border: 1px solid #ebebeb;
   display: flex;
-  justify-items: space-between;
 }
 
-.cart ul li i {
-  margin-right: 10px;
+.cart ul li:last-child {
+  list-style: none;
+  padding: 15px 20px 15px 20px;
+  border: 1px solid #ebebeb;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart .cart-price ul li svg {
+  margin-right: 5px;
 }
 
 .cart .cart-btn {
@@ -172,6 +193,24 @@ body {
   line-height: 50px;
   border-radius: 7px;
   width: 250px;
+}
+
+/* Data price */
+.data-price {
+  background: rgba(15, 175, 233, 0.1);
+  padding: 15px 0 10px 0;
+}
+
+.data-price div{
+  padding: 0px 20px 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.data-price div .total-price{
+  font-weight: 600;
+  font-size: 18px;
+  color: #489DFF;
 }
 
 /* Footer img */
