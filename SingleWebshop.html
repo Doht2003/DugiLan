@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="./assets/css/Single.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/b0b92aa8e1.js" crossorigin="anonymous"></script></head>
+    <!-- <script src="https://kit.fontawesome.com/b0b92aa8e1.js" crossorigin="anonymous"></script> -->
+</head>
 <body>
     <div class="container">
         <div class="header">
@@ -19,9 +20,9 @@
                     </div>
                     <div class="nav">
                         <ul>
-                            <li><a href="">Browse  </a></li>
-                            <li><a href="">All-Exclusive</a></li>
-                            <li><a href="">Docs</a></li>
+                            <li><a href="./SingleWebshop.html">Browse <i class="fa fa-angle-down"></i></a></li>
+                            <li><a href="#">All-Exclusive</a></li>
+                            <li><a href="#">Docs</a></li>
                         </ul>
                     </div>
                 </div>
@@ -30,7 +31,7 @@
                         <span class="icon-nav"><i class="fa fa-heart"></i></span>
                         <span class="icon-nav"><i class="fa fa-shopping-basket"></i></span>
                     </div>
-                    <button class="btn-account">Account</button>
+                    <button class="btn-account"><a href="Dashboard.html">Account</a></button>
                 </div>
             </div>
         </div>
@@ -45,15 +46,15 @@
                 <video controls>
                     <source src="./img/Video-tiktok.mp4">
                 </video>
-                <div class="">
+                <div class="main-content">
                     <p class="color--text5">Gender detection is a wordpress plugin designed and builded for detection of genders in large data files. The plugin allows you to go beyond the usual text messages and contact forms and get closer to your users. The plugin adds a voice recording button to any convenient place on the site. This can be useful for reviews, order comments or any questions.</p>
                     <br>
                     <p class="color--text5">Our WooCommerce cart PDF plugin helps you and your customers to export their current cart items as PDF. Customize the PDF with ease:</p>
                 </div>
                 <img src="./img/Video.png" alt="" class="slide">
             </div>
-            <div class="content-menu">
-                <div class="content-menu__title"><p class="color--text5">If you have a coupon code discount please apply, otherwise please subscribe to our offers below for a chance to receive one. </p></div>
+            <div class="content-main">
+                <div class="main_title-top"><p class="color--text5">If you have a coupon code discount please apply, otherwise please subscribe to our offers below for a chance to receive one. </p></div>
                 <form action="">
                     <input class="input-search" type="text" placeholder="e.g Responsive slider" required>
                     <button class="btn-search">Search</button>
@@ -110,16 +111,33 @@
                     </div>
                     <div class="cart-btn"><button>ADD TO CART</button></div>
                 </div>
-                <div class="content-menu__title"><p class="color--text5">After your plugin purchase, you'll get the licence key and plugin option to download. Be aware that this plugin can only be activated one time in any of your WordPress Sites.</p></div>
-                <div>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
+                <div class="main_title"><p class="color--text5">After your plugin purchase, you'll get the licence key and plugin option to download. Be aware that this plugin can only be activated one time in any of your WordPress Sites.</p></div>
+                <ul class="information">
+                    <li>
+                        <span class="color--text5">Last Update</span>
+                        <span>16 January 2022</span>
+                    </li>
+                    <li>
+                        <span class="color--text5">Creted</span>
+                        <span>16 January 2022</span>
+                    </li>
+                    <li>
+                        <span class="color--text5">Compatible Browsers</span>
+                        <span>IE11, Firefox, Chrome, Opera, Edge, Safari</span>
+                    </li>
+                    <li>
+                        <span class="color--text5">Stack</span>
+                        <span>PHP, VUE JS</span>
+                    </li>
+                    <li>
+                        <span class="color--text5">Category</span>
+                        <span>Data</span>
+                    </li>
+                    <li>
+                        <span class="color--text5">Current Version</span>
+                        <span>2.0.0</span>
+                    </li>
+                </ul>
             </div>
         </div>
 
@@ -133,6 +151,35 @@
             <div class="footer-img">
                 <img src="./img/Frame 8.png" alt="">
                 <img src="./img/Group 253 1.png" alt="">
+            </div>
+        </div>
+
+        <p class="related-title">Related category plugins</p>
+        
+        <div class="related">
+            <div>
+                <a href="#"><img src="./img/4.png" alt=""></a>
+                <a href="#" class="content-note-img">RubICons</a>
+                <p class="color--text5">PHP, Wordpress</p>
+                <p class="col-6">$29,99</p>
+            </div>
+            <div>
+                <a href="#"><img src="./img/5.png" alt=""></a>
+                <a href="#" class="content-note-img">DugiLan</a>
+                <p class="color--text5">PHP, Wordpress</p>
+                <p class="col-6">$29,99</p>
+            </div>
+            <div>
+                <a href="#"><img src="./img/6.png" alt=""></a>
+                <a href="#" class="content-note-img">Abstract Theme</a>
+                <p class="color--text5">PHP, Wordpress</p>
+                <p class="col-6">$29,99</p>
+            </div>
+            <div>
+                <a href="#"><img src="./img/12.png" alt=""></a>
+                <a href="#" class="content-note-img">DugiCon</a>
+                <p class="color--text5">PHP, Wordpress</p>
+                <p class="col-6">$29,99</p>
             </div>
         </div>
 
@@ -170,7 +217,7 @@
             </div>
             <hr>
             <div class="footer-end">
-                <div class="note-content">© 2020 DugiLanding All right reserved.</div>
+                <a href="#" class="note-content">© 2020 DugiLanding All right reserved.</a>
                 <div class="footer-icon">
                     <i class="fab fa-facebook-f col-1"></i>
                     <i class="fa fa-basketball-ball col-2"></i>
